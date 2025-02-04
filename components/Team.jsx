@@ -2,21 +2,21 @@ import Image from 'next/image';
 
 const teamData = [
   {
-    src: '/images/chefgril2.png',
+    src: '/images/kahve-kişi.jpg',
     name: 'Vercy Civil',
     title: 'Yardımcı Baş Şef',
     description:
       'Bir kahve kavurucu olarak, dünya çapında en iyi kahve çekirdeklerini yetiştiren çiftçilerle iş birliği yapıyoruz.',
   },
   {
-    src: '/images/chefgril3.png',
+    src: '/images/kahve-kisi-2.jpg',
     name: 'Yemini Smiler',
     title: 'Baş Şef',
     description:
       'Bir kahve kavurucu olarak, dünya çapında en iyi kahve çekirdeklerini yetiştiren çiftçilerle iş birliği yapıyoruz.',
   },
   {
-    src: '/images/chefgril4.png',
+    src: '/images/kahve-kisi-3.jpg',
     name: 'Khan  Smith',
     title: 'Yardımcı Baş Şef',
     description:
@@ -36,8 +36,8 @@ const Team = () => {
             <Image
               src={member.src}
               alt={member.name}
-              width={200}
-              height={200}
+              width={400}
+              height={400}
             />
             <h2>{member.name}</h2>
             <span>{member.title}</span>

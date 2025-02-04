@@ -20,7 +20,7 @@ const HomeSection = () => {
       </div>
       <div className="home-img">
         <Image
-          src="/images/coffee2-removebg-preview.png"
+          src="/images/kahve2.jpg"
           alt="Kahve çekirdekleri"
           width={500}
           height={500}

@@ -1,7 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper'; // Autoplay modülü eklendi
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Image from 'next/image';
@@ -38,7 +38,12 @@ const Reviews = () => {
       </div>
       <Swiper
         pagination={{ clickable: true }}
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]} // Autoplay modülü eklendi
+        autoplay={{
+          delay: 3000, // 3 saniyede bir otomatik geçiş
+          disableOnInteraction: false, // Kullanıcı kaydırdığında autoplay durmaz
+        }}
+        loop={true} // Sonsuz döngü modu
         className="mySwiper"
       >
         {reviewsData.map((review, index) => (

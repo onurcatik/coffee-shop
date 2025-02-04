@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+    <title>Coffee Shop</title>
       <body>{children}</body>
     </html>
   );
