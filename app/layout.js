@@ -3,7 +3,7 @@
 
 import '../app/globals.css';
 import { useEffect } from 'react';
-import ScrollReveal from 'scrollreveal';
+// import ScrollReveal from 'scrollreveal';
 
 export default function RootLayout({ children }) {
   useEffect(() => {
