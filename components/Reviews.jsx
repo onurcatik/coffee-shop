@@ -9,21 +9,21 @@ import Image from 'next/image';
 const reviewsData = [
   {
     src: '/images/reviewgril3-removebg-preview.png',
-    name: 'Janan Jadery',
+    name: 'Jonathan Smith',
     tagline: 'Kahvenin tadı muhteşem, zarif ve yumuşak bir aromaya sahip.',
     description:
       'Kahvenin tadı kullanılan kahve çekirdeğinin türüne, kavrulma seviyesine ve demleme yöntemine bağlı olarak değişebilir. Bazı insanlar güçlü ve yoğun bir tat tercih ederken, bazıları daha zarif ve yumuşak aromaları sever.',
   },
   {
     src: '/images/reviewgril6-removebg-preview.png',
-    name: 'Zahra Jadery',
+    name: 'Zehhira Jaden',
     tagline: 'Kahvenin tadı muhteşem, zarif ve yumuşak bir aromaya sahip.',
     description:
       'Kahvenin tadı kullanılan kahve çekirdeğinin türüne, kavrulma seviyesine ve demleme yöntemine bağlı olarak değişebilir. Bazı insanlar güçlü ve yoğun bir tat tercih ederken, bazıları daha zarif ve yumuşak aromaları sever.',
   },
   {
     src: '/images/reviewgril7-removebg-preview.png',
-    name: 'Mona Jadery',
+    name: 'Blue Tadery',
     tagline: 'Kahvenin tadı muhteşem, zarif ve yumuşak bir aromaya sahip.',
     description:
       'Kahvenin tadı kullanılan kahve çekirdeğinin türüne, kavrulma seviyesine ve demleme yöntemine bağlı olarak değişebilir. Bazı insanlar güçlü ve yoğun bir tat tercih ederken, bazıları daha zarif ve yumuşak aromaları sever.',

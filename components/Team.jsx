@@ -3,21 +3,21 @@ import Image from 'next/image';
 const teamData = [
   {
     src: '/images/chefgril2.png',
-    name: 'Sara John',
+    name: 'Vercy Civil',
     title: 'Yardımcı Baş Şef',
     description:
       'Bir kahve kavurucu olarak, dünya çapında en iyi kahve çekirdeklerini yetiştiren çiftçilerle iş birliği yapıyoruz.',
   },
   {
     src: '/images/chefgril3.png',
-    name: 'Jonathan Zones',
+    name: 'Yemini Smiler',
     title: 'Baş Şef',
     description:
       'Bir kahve kavurucu olarak, dünya çapında en iyi kahve çekirdeklerini yetiştiren çiftçilerle iş birliği yapıyoruz.',
   },
   {
     src: '/images/chefgril4.png',
-    name: 'Jane Khony',
+    name: 'Khan  Smith',
     title: 'Yardımcı Baş Şef',
     description:
       'Bir kahve kavurucu olarak, dünya çapında en iyi kahve çekirdeklerini yetiştiren çiftçilerle iş birliği yapıyoruz.',
